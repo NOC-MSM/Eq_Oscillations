@@ -25,7 +25,7 @@ def vmode_plots(plotfilename, depths, p_mode):
        else :
           plt.plot(p_mode[m,:],depths,linewidth=2, linestyle='--', label=r'$m=$'+str(m+1))
        
-    plt.xlim([-4.6,4.6])
+    plt.xlim([-4.6,5.6])
     plt.title("Vertical mode structure", fontsize=16)
     plt.xlabel("Amplitude", fontsize=12)
     plt.ylabel("Depth (m)", fontsize=12)

@@ -61,7 +61,7 @@ def Eq_Osc_Wind(region):
     # Control path for output files
     date = '2020_08_05/'+ region_lc
     sig_type          = '04_sig2'
-    k_bottom_w        = 65   # w-level of the bottom (k = 0 is at z = 0; the bottom is at w-level k)  level 65 is at 3995 metres in the 75 level grid
+    k_bottom_w        = 72   # w-level of the bottom (k = 0 is at z = 0; the bottom is at w-level k)  level 65 is at 3995 metres in the 75 level grid
                              # the number of rho depth levels is k_bottom_w; the number of w-levels is k_bottom_w + 1
                              # 65 is the usual choice ; 73 is a sensible alternative; 75 is not great because some values are missing   
 
@@ -103,12 +103,12 @@ def Eq_Osc_Wind(region):
        j_lat_row_max     = 71        #  max latitude of row of densities (between 0 and 99) 
 
 # 0.2 specify the number of vertical modes to calculate and the depth of the wind penetration to use as inputs;
-    n_vertical_modes     = 6   
+    n_vertical_modes     = 1   
     MLD                  = 50.       # depth of wind penetration in metres (this is described as the MLD, mixed layer depth, in the documentation)  
                                      # results should be relatively insensitive to MLD if MLD <= 50.
 
 # 0.3 set the list of meridional wavenumbers to calculate
-    n_meridional_modes   = 6    
+    n_meridional_modes   = 1    
 
 # 0.4 set the Rayleigh damping coefficient 
     if l_Rayleigh : 

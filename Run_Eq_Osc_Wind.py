@@ -25,7 +25,7 @@ def Run_Eq_Osc_Wind():
 
     list_regions_full = ['PAC', 'PAC_E', 'PAC_W', 'ATL', 'IND', 'IND_E', 'IND_W']
 
-    list_regions = ['PAC', 'ATL', 'IND']
+#    list_regions = ['PAC', 'ATL', 'IND']
     list_regions = ['PAC']
 
     for region in list_regions: 
