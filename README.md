@@ -14,3 +14,5 @@ Part II: Idealised simulations, JPO, accepted.
 User choices are set in Section 0 of  "Eq_Osc_Wind.py".
 
 Code can be run using  "Run_Eq_Osc_Wind.py"  or  "Run_Eq_Osc_Wind.ipynb".
+
+[![DOI](https://zenodo.org/badge/224002147.svg)](https://zenodo.org/badge/latestdoi/224002147)
