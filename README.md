@@ -1,5 +1,5 @@
 # Eq_Oscillations
-Simulation of wind and pressure forced meridional overturning circulation near the Equator
+Simulation of wind and pressure forced meridional overturning circulation near the equator
 
 
 The code in this repository was written and used for the following publications:
